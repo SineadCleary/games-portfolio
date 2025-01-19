@@ -4,91 +4,98 @@
 	<meta charset="UTF-8">
 	<title>Sinead Cleary - Portfolio</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+	<style>
+		main {
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+		a {
+			color: orangered;
+		}
+		a:hover {
+			color: coral;
+		}
+		a:active {
+			color: red;
+		}
+	</style>
 	</head>
 
 	<body>
-		<div >
-
-			<div class="ui inverted center aligned segment">
-				<div class="ui text container">
-					<h1>
-						Sinéad Cleary
-					</h1>
-					<h3>
-						Games Portfolio
-					</h3>
-				</div>
-			</div>
-
-			<div class="ui centered link cards">
-				<div class="ui card" >
-					<div class="image">
-						<img src="images/spaceZapper.png">
-					</div>
-					<div class="content">
-						<div class="header">
-								Space Zapper
-						</div>
-						<div class="description">
-							<p>Space shooter game made with C++ and SFML</p>
-							<a href="https://sineadcleary.itch.io/space-zapper">Link - itch.io</a>
-						</div>
-					</div>
-				</div>
-				<div class="ui card" >
-					<div class="image">
-						<img src="images/ASIC.png">
-					</div>
-					<div class="content">
-							<div class="header">
-									A Storm Is Coming
-							</div>
-						<div class="description">
-							<p>First person survival game made with Unity3D</p>
-							<a href="https://sineadcleary.itch.io/a-storm-is-coming">Link - itch.io</a>
-						</div>
-					</div>
-				</div>
-				<div class="ui card" >
-					<div class="image">
-						<img src="images/corruption.png">
-					</div>
-					<div class="content">
-							<div class="header">
-								Corruption
-							</div>
-						<div class="description">
-							<p>Unity 3D game made with a partner</p>
-							<a href="https://sineadcleary.itch.io/corruption">Link - itch.io</a>
-						</div>
-					</div>
-				</div>
-			</div>
-				
+		<header>
 			<div class="ui inverted segment">
-    		<div class="ui container">
+				<div class="ui container">
+					<h1>
+						Sinéad Cleary's Games
+					</h1>
 					<div class="ui list">
 						<div class="item">
+							<i class="large github icon"></i>	
 							<div class="content">
-									<h3>Links:</h3>
+							<a href="https://github.com/SineadCleary" target="_blank">GitHub</a>
 							</div>
 						</div>
-							<div class="item">
-								<i class="github icon"></i>	
-								<div class="content">
-								<a href="https://github.com/SineadCleary">GitHub</a>
-								</div>
-						</div>
 						<div class="item">
-							<i class="linkify icon"></i>
+							<i class="large linkify icon"></i>
 							<div class="content">
-								<a href="https://sineadcleary.itch.io/">Itch</a>
+								<a href="https://sineadcleary.itch.io/" target="_blank">Itch</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</header>
+
+		<main>
+			<section class="ui container">
+
+				<!--GAME 1-->
+				<div class="ui raised segment">
+					<div class="ui grid">
+						<div class="six wide column">
+							<img src="images/spaceZapper.png" class="ui fluid image"/>
+						</div>
+						<div class="ten wide column">
+							<h3 class="ui header">Space Zapper</h3>
+								<p><strong>Genre:</strong> Space Shooter</p>
+								<p>Developed using C++ and SFML for a 3rd year college assignment. Players can navigate through space, avoiding and defeating enemies while upgrading their ship.</p>
+							<a href="https://sineadcleary.itch.io/space-zapper" alt="Space Zapper cover image" target="_blank">More info</a>
+						</div>
+					</div>
+				</div>
 				
-		</div>
+				<!--GAME 2-->
+				<div class="ui raised segment">
+					<div class="ui grid">
+						<div class="ten wide column">
+							<h3 class="ui header">A Storm Is Coming</h3>
+								<p><strong>Genre:</strong> Survival</p>
+								<p>Developed using Unity3D for a 3rd year college assignment. The game includes a first person perspective, an inventory system, shooting, NPC navigation, cutscenes, a simple story, and a user interface.</p>
+							<a href="https://sineadcleary.itch.io/a-storm-is-coming" alt="A Storm Is Coming cover image" target="_blank">More info</a>
+						</div>
+						<div class="six wide column">
+							<img src="images/ASIC.png" class="ui fluid image"/>
+						</div>
+					</div>
+				</div>
+				
+				<!--GAME 3-->
+				<div class="ui raised segment">
+					<div class="ui grid">
+						<div class="six wide column">
+							<img src="images/corruption.png" class="ui fluid image"/>
+						</div>
+						<div class="ten wide column">
+							<h3 class="ui header">Corruption</h3>
+								<p><strong>Genre:</strong> Exploration</p>
+								<p>Developed with a partner using Unity3D for a 2nd year college assignment. The game includes a third person perspective, 2D minigame puzzles, indoor and outdoor scenes, and cutscenes.</p>
+							<a href="https://sineadcleary.itch.io/corruption" alt="Corruption cover image" target="_blank">More info</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</main>
+		
 	</body>
 </html>
